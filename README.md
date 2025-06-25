@@ -63,3 +63,69 @@ Esta seção foca na aplicação de Machine Learning para prever a produção:
 
 ---
 
+## 🚀 Como Rodar o Projeto Localmente
+
+Siga os passos abaixo para configurar e executar o projeto em sua máquina local:
+
+### Pré-requisitos
+
+- Python 3.7+ instalado em seu sistema.
+
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/leoalvsmag/project-ml-streamlit.git
+cd project-ml-streamlit
+```
+
+### 2. Criar e Ativar um Ambiente Virtual
+
+Recomenda-se usar um ambiente virtual para gerenciar as dependências:
+
+```bash
+python -m venv venv
+```
+
+- No Windows:
+
+```bash
+.env\Scriptsctivate
+```
+
+- No macOS/Linux:
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Instalar as Dependências
+
+Crie um arquivo `requirements.txt` na raiz do projeto com o conteúdo abaixo:
+
+```
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+```
+
+Depois, instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Executar o Aplicativo Streamlit
+
+```bash
+streamlit run app.py
+```
+
+O aplicativo será aberto automaticamente no seu navegador padrão, geralmente em [http://localhost:8501](http://localhost:8501).
+
+---
+
+Obrigado por visitar o projeto! 🌱🚜
