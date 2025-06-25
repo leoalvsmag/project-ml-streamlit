@@ -1,4 +1,5 @@
 Análise Agrícola com Machine Learning e Streamlit 🌾
+
 Este projeto oferece uma plataforma interativa e amigável construída com Streamlit para explorar um dataset simulado de produção agrícola e aplicar um modelo de Machine Learning para realizar previsões. Ele foi desenvolvido para demonstrar capacidades de Análise Exploratória de Dados (EDA) e modelagem preditiva em um contexto agrícola.
 
 🎯 Objetivo
