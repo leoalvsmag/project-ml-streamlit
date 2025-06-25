@@ -3,6 +3,7 @@ Análise Agrícola com Machine Learning e Streamlit 🌾
 Este projeto oferece uma plataforma interativa e amigável construída com Streamlit para explorar um dataset simulado de produção agrícola e aplicar um modelo de Machine Learning para realizar previsões. Ele foi desenvolvido para demonstrar capacidades de Análise Exploratória de Dados (EDA) e modelagem preditiva em um contexto agrícola.
 
 🎯 Objetivo
+
 O principal objetivo deste aplicativo é:
 
 Fornecer uma interface intuitiva para a exploração de dados agrícolas simulados, permitindo visualizar distribuições, relações e correlações entre variáveis climáticas, tipo de solo, fertilizantes e produção.
@@ -12,6 +13,7 @@ Demonstrar a aplicação de um modelo de Machine Learning (Regressão) para prev
 Servir como um ponto de partida para projetos de análise de dados e modelagem preditiva no setor agrícola.
 
 ✨ Funcionalidades
+
 O aplicativo é dividido em duas seções principais, acessíveis através da barra lateral:
 
 1. Exploração de Dados
@@ -43,6 +45,7 @@ Treinamento do Modelo: Treina um modelo de Regressão Random Forest (RandomFores
 Previsões: Permite ao usuário inserir novos valores para temperatura, precipitação, umidade, tipo de fertilizante e solo para obter uma previsão instantânea da produção agrícola.
 
 🛠️ Tecnologias Utilizadas
+
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Python
@@ -62,6 +65,7 @@ Plotly Express: Para gráficos interativos.
 Scikit-learn: Para a implementação do modelo de Machine Learning (RandomForestRegressor).
 
 📁 Estrutura do Projeto
+
 app.py: O ponto de entrada principal do aplicativo Streamlit, responsável por configurar a navegação entre as páginas.
 
 Exploracao_de_dados.py: Contém o código e a interface para a seção de Análise Exploratória de Dados.
@@ -71,6 +75,7 @@ Exploracao_de_dados.py: Contém o código e a interface para a seção de Análi
 data_generation.py: Um script auxiliar para gerar o dataset simulado de produção agrícola utilizado no aplicativo.
 
 🚀 Como Rodar o Projeto Localmente
+
 Siga os passos abaixo para configurar e executar o projeto em sua máquina local:
 
 Pré-requisitos
